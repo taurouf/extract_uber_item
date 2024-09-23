@@ -28,18 +28,16 @@ Avant d'utiliser ce script, assurez-vous que vous avez Python 3 installé sur vo
 
 ## Utilisation
 
-1. Modifiez l'URL dans le script pour spécifier la page que vous souhaitez télécharger et analyser. Vous pouvez modifier l'appel à la fonction `download_html()` pour indiquer l'URL de votre choix :
-
-    ```python
-    download_html('https://example.com', 'page.html')
-    ```
-
-2. Ensuite, exécutez le script en utilisant la commande suivante :
+1. Ensuite, exécutez le script en utilisant la commande suivante :
 
     ```bash
     python menu-extraction-script.py
     ```
+2. Renseigner l'URL cible dans le terminal :
 
+    ```bash
+    https://www.ubereats.com/fr/store/push-smash-burger-paradis/wD7aKY1DWsmmS7wT8G5dfg
+    ```
 3. Les fichiers extraits (comme le fichier HTML ou les données CSV/JSON) seront enregistrés dans le répertoire courant.
 
 ### Options personnalisées
@@ -56,6 +54,8 @@ Pour télécharger une page et extraire les URLs des images, voici un exemple si
 
 ```bash
 python menu-extraction-script.py
+https://www.ubereats.com/fr/store/push-smash-burger-paradis/wD7aKY1DWsmmS7wT8G5dfg
+
 ```
 
 Le script téléchargera le fichier HTML à partir de l'URL que vous avez indiquée et sauvegardera les résultats dans un fichier CSV ou JSON.
@@ -72,14 +72,5 @@ Le script contient les fonctions suivantes :
 
 Le script utilise des blocs `try-except` pour capturer les erreurs liées aux requêtes HTTP, comme les erreurs de connexion ou les URL invalides. En cas d'échec de téléchargement ou d'extraction, un message d'erreur approprié sera affiché.
 
-## Auteurs
-
-- **Votre Nom** - Développeur principal du script.
-
-## Licence
-
-Ce projet est sous licence libre (vous pouvez indiquer la licence de votre choix, ex : MIT, GPL, etc.).
 
 ---
-
-Tu peux adapter ce **README** pour inclure plus de détails spécifiques à ton projet ou pour fournir plus d'exemples d'utilisation si besoin. Si tu as besoin de clarifications supplémentaires ou d'ajouter quelque chose, n'hésite pas !
