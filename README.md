@@ -1,7 +1,3 @@
-Voici un exemple de fichier **README** pour ton projet Python d'extraction de données à partir de pages web. Il inclut des instructions sur l'installation, l'utilisation, ainsi que des détails sur les fonctionnalités du script.
-
----
-
 # Menu Extraction Script
 
 ## Description
